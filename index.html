@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>AKAN NAMES</title>
+</head>
+
+<body>
+    <div class="container bg-dark text-light">
+        <h1>AKAN NAMES</h1>
+        <p>Akan names are derived from the Ghanian culture.<br>Frequently in Ghana, children are given their first name
+            as a 'day name',which corresponds to the day in the week they wer born.<br>Here are the Ghanian day names:
+        </p>
+
+        <div>Male</div>
+
+        <ul>
+            <li>Sunday:Kwasi</li>
+            <li>Monday:Kwadwo</li>
+            <li>Tuesday:Kwabena</li>
+            <li>Wednesday:Kwaku</li>
+            <li>Thursday:Yaw</li>
+            <li>Friday:Kofi</li>
+            <li>Saturday:kwame</li>
+        </ul>
+
+        <div>Female</div>
+
+        <ul>
+            <li>Sunday:Akosua</li>
+            <li>Monday:Adwoa</li>
+            <li>Tuesday:Abenaa</li>
+            <li>Wednesday:Akua</li>
+            <li>Thursday:Yaa</li>
+            <li>Friday:Afua</li>
+            <li>Saturday:Ama</li>
+        </ul>
+        <h3>Fill in your details below to get to know your Akan name</h3>
+
+
+        <div class="form-group">
+            <input type="date" id="pie" value="pie"><br>
+            <input type="radio" onclick="male()" name="gender" id="male" value="male">male <br>
+            <input type="radio" onclick="female()" name=gender id="female" value="female">female <br>
+            <input type="submit" onclick="akhan()">
+            <p id="result">Gender</p>
+            <p id="finalName"> Akhan name</p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
