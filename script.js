@@ -15,21 +15,7 @@ function akhan() {
     let any = document.getElementById('result').innerHTML;
     let maleNames = ['Kwame', 'Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi'];
     let femaleNames = ['Ama', 'Akosua', 'Awdoa', 'Abenna', 'Akua', 'Yaa', 'Yaa', 'Afua'];
-    if (tarehe == 0 && any == 'male') {
-        document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[0]));
-    } else if (tarehe == 1 && any == 'male') {
-        document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[1]));
-    } else if (tarehe == 2 && any == 'male') {
-        document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[2]));
-    } else if (tarehe == 3 && any == 'male') {
-        document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[3]));
-    } else if (tarehe == 4 && any == 'male') {
-        document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[4]));
-    } else if (tarehe == 5 && any == 'male') {
-        document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[5]));
-    } else if (tarehe == 6 && any == 'male') {
-        document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[6]));
-    };
+    
     if (tarehe == 0 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[0]));
     } else if (tarehe == 1 && any == 'female') {
