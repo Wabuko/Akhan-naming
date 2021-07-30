@@ -9,9 +9,7 @@ function female() {
 
 
 function akhan() {
-    let date = document.getElementById('pie').value
-    let otherDate = new Date (date)
-    let tarehe = otherDate.getDay()
+    
     let any = document.getElementById('result').innerHTML;
     let maleNames = ['Kwame', 'Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi'];
     let femaleNames = ['Ama', 'Akosua', 'Awdoa', 'Abenna', 'Akua', 'Yaa', 'Yaa', 'Afua'];
