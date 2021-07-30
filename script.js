@@ -1,3 +1,7 @@
+function male() {
+    let man = document.getElementById('male').value;
+    document.getElementById('result').innerHTML = man;
+}
 
 
 function female() {
