@@ -45,5 +45,10 @@ function akhan() {
     } else if (tarehe == 6 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[6]));
     };
+    if (DD <= 0 || DD >= 31) {
+        alert("INVALID DAY");
+    } else if (MM <= 0 || MM >= 12) {
+        alert("INVALID MONTH");
+    }
     
 }
