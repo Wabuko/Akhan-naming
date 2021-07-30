@@ -31,7 +31,7 @@ function akhan() {
     } else if (tarehe == 6 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[6]));
     };
-    if (awe == 0 && any == 'female') {
+    if (tarehe == 0 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[0]));
     } else if (tarehe == 1 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[1]));
