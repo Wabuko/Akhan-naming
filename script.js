@@ -2,7 +2,10 @@ function male() {
     let man = document.getElementById('male').value;
     document.getElementById('result').innerHTML = man;
 }
-
+function female() {
+    let female = document.getElementById('female').value;
+    document.getElementById('result').innerHTML = female;
+}
 
 
 function akhan() {
