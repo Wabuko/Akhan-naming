@@ -10,12 +10,9 @@ function female() {
 }
 function akhan() {
     let date = document.getElementById('pie').value
-    let CC = parseInt(date.substr(0, 2));
-    let YY = parseInt(date.substr(2, 2));
-    let MM = parseInt(date.substr(5, 2));
-    let DD = parseInt(date.substr(8, 2));
-    let birthday = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
-    let awe = Math.floor(birthday);
+    let otherDate = new Date (date)
+    let tarehe = otherDate.getDay()
+    alert(tarehe)
     let any = document.getElementById('result').innerHTML;
     let maleNames = ['Kwame', 'Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi'];
     let femaleNames = ['Ama', 'Akosua', 'Awdoa', 'Abenna', 'Akua', 'Yaa', 'Yaa', 'Afua'];
