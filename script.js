@@ -14,7 +14,7 @@ function akhan() {
     let tarehe = otherDate.getDay()
     let any = document.getElementById('result').innerHTML;
     let maleNames = ['Kwame', 'Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi'];
-    let femaleNames = ['Ama', 'Akosua', 'Awdoa', 'Abenna', 'Akua', 'Yaa', 'Yaa', 'Afua'];
+    
     if (tarehe == 0 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[0]));
     } else if (tarehe == 1 && any == 'male') {
