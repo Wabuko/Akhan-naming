@@ -16,34 +16,34 @@ function akhan() {
     let any = document.getElementById('result').innerHTML;
     let maleNames = ['Kwame', 'Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi'];
     let femaleNames = ['Ama', 'Akosua', 'Awdoa', 'Abenna', 'Akua', 'Yaa', 'Yaa', 'Afua'];
-    if (awe == 0 && any == 'male') {
+    if (tarehe == 0 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[0]));
-    } else if (awe == 1 && any == 'male') {
+    } else if (tarehe == 1 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[1]));
-    } else if (awe == 2 && any == 'male') {
+    } else if (tarehe == 2 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[2]));
-    } else if (awe == 3 && any == 'male') {
+    } else if (tarehe == 3 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[3]));
-    } else if (awe == 4 && any == 'male') {
+    } else if (tarehe == 4 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[4]));
-    } else if (awe == 5 && any == 'male') {
+    } else if (tarehe == 5 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[5]));
-    } else if (awe == 6 && any == 'male') {
+    } else if (tarehe == 6 && any == 'male') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (maleNames[6]));
     };
     if (awe == 0 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[0]));
-    } else if (awe == 1 && any == 'female') {
+    } else if (tarehe == 1 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[1]));
-    } else if (awe == 2 && any == 'female') {
+    } else if (tarehe == 2 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[2]));
-    } else if (awe == 3 && any == 'female') {
+    } else if (tarehe == 3 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[3]));
-    } else if (awe == 4 && any == 'female') {
+    } else if (tarehe == 4 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[4]));
-    } else if (awe == 5 && any == 'female') {
+    } else if (tarehe == 5 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[5]));
-    } else if (awe == 6 && any == 'female') {
+    } else if (tarehe == 6 && any == 'female') {
         document.getElementById('finalName').innerHTML = ('Your akan name is' + ' ' + (femaleNames[6]));
     };
     if (DD <= 0 || DD >= 31) {
