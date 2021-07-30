@@ -8,7 +8,7 @@ function female() {
 }
 
 
-function akhan() {
+
     let date = document.getElementById('pie').value
     let otherDate = new Date (date)
     let tarehe = otherDate.getDay()
