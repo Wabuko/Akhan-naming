@@ -4,10 +4,7 @@ function male() {
 }
 
 
-function female() {
-    let female = document.getElementById('female').value;
-    document.getElementById('result').innerHTML = female;
-}
+
 function akhan() {
     let date = document.getElementById('pie').value
     let otherDate = new Date (date)
